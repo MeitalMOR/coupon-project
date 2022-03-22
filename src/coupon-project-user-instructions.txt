@@ -1,0 +1,50 @@
+coupon project - Meital Mor
+
+
+Database: MySQL
+	Url: jdbc:mysql://localhost:3306/coupon_project?useSSL=false&serverTimezone=UTC
+	User: root
+	Password: Meital123!
+	
+Admin configuration:
+	Email: admin@admin.com
+	Password: admin
+	
+Company configuration:
+	Name: company1
+	Email: company1@gmail.com
+	Password: 1234
+	
+Customer configuration:
+	First name: customer1
+	Last name: customer1
+	Email: customer1@gmail.com
+	Password: 12345
+	
+Date Format: dd-MM-yyyy
+	
+	
+External Library: 
+	1. log4j - Apache Log4j is a Java-based logging utility.
+	Log4j configuration is written in log4j.properties file.
+	There is an option for the logger to display the logging data in the console or file.
+	
+	url: https://www.apache.org/dyn/closer.cgi/logging/log4j/1.2.17/log4j-1.2.17.zip
+
+	2. lombok - java library tool that is used to minimize/remove the boilerplate code.
+	url: https://projectlombok.org/download
+
+	3. mysql connector - connection between java to mysql database.
+	url: https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.27
+
+
+
+
+Instruction:
+	1. Run "Program" class, in order to test the login manager, all logical function in the program and the Coupon Expiration DailyJob.
+	2. There are also daoTests classes in order to test each crud operation.
+	
+
+
+
+	
